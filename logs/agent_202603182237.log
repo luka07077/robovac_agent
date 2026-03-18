@@ -1,0 +1,22 @@
+2026-03-18 22:38:16,106 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带1条消息
+2026-03-18 22:38:21,794 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_user_id
+2026-03-18 22:38:21,795 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:38:21,797 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带3条消息
+2026-03-18 22:38:25,360 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_current_month
+2026-03-18 22:38:25,360 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:38:25,363 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带5条消息
+2026-03-18 22:38:29,387 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: fill_context_for_report
+2026-03-18 22:38:29,387 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:38:29,390 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带7条消息
+2026-03-18 22:38:36,207 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: fetch_external_data
+2026-03-18 22:38:36,207 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'user_id': '1007', 'month': '2025-04'}
+2026-03-18 22:38:36,224 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带9条消息
+2026-03-18 22:38:44,864 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summarize
+2026-03-18 22:38:44,864 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '扫地机器人滤网更换周期和尘盒清理频率建议'}
+2026-03-18 22:38:44,866 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带11条消息
+2026-03-18 22:38:48,677 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:38:48,677 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '扫地机器人滤网更换周期和尘盒清理频率建议'}
+2026-03-18 22:39:04,969 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带13条消息
+2026-03-18 22:39:07,039 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:39:07,039 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '小户型扫地机器人使用优化建议'}
+2026-03-18 22:39:17,250 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带15条消息

@@ -1,0 +1,8 @@
+# 嵌入模型
+# embedding_model_name: 'text-embedding-v4'
+embedding_model_name: 'text-embedding-v1'
+
+# 聊天模型
+chat_model_name: qwen3-max
+
+

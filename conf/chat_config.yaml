@@ -1,0 +1,9 @@
+# 历史会话存储路径
+chat_history_store_path: chat_history
+
+# 为当前程序配置所属的session_id
+session_config: {
+    'configurable': {
+        'session_id': 'user_001'
+    }
+}

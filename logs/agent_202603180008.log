@@ -1,0 +1,18 @@
+2026-03-18 00:09:46,377 file_handler.py[line:86] ERROR 计算文件: /Users/luka/Code/python/Agent/file/故障排除.txt 的md5失败, error: binary mode doesn't take an encoding argument
+2026-03-18 00:09:52,068 vector_stores.py[line:128] INFO 故障排除.txt 上传并向量化成功
+2026-03-18 00:13:30,240 file_handler.py[line:86] ERROR 计算文件: /Users/luka/Code/python/Agent/file/故障排除.txt 的md5失败, error: binary mode doesn't take an encoding argument
+2026-03-18 00:13:34,937 vector_stores.py[line:132] ERROR 上传解析 error: Query error: Database error: error returned from database: (code: 1032) attempt to write a readonly database
+Traceback (most recent call last):
+  File "/Users/luka/Code/python/Agent/rag/vector_stores.py", line 126, in upload_document_from_web
+    self.get_vector_db().add_documents(split_doc_list)
+  File "/opt/miniconda3/envs/LLM_DEV/lib/python3.12/site-packages/langchain_core/vectorstores/base.py", line 258, in add_documents
+    return self.add_texts(texts, metadatas, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/envs/LLM_DEV/lib/python3.12/site-packages/langchain_chroma/vectorstores.py", line 651, in add_texts
+    self._collection.upsert(
+  File "/opt/miniconda3/envs/LLM_DEV/lib/python3.12/site-packages/chromadb/api/models/Collection.py", line 503, in upsert
+    self._client._upsert(
+  File "/opt/miniconda3/envs/LLM_DEV/lib/python3.12/site-packages/chromadb/api/rust.py", line 509, in _upsert
+    return self.bindings.upsert(
+           ^^^^^^^^^^^^^^^^^^^^^
+chromadb.errors.InternalError: Query error: Database error: error returned from database: (code: 1032) attempt to write a readonly database

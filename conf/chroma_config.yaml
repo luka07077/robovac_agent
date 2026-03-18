@@ -1,0 +1,51 @@
+# 表名
+collection_name: agent
+
+# 存储路径
+persist_directory: chroma_db
+# 分段的最大字符数
+chunk_size: 500
+# 分段之间允许重叠的字符数(为了语义连贯)
+chunk_overlap: 50
+# 文本分段依据
+separators: [
+    "\n\n",  # 优先尝试按双换行符（段落）切分
+    "\n",  # 其次尝试按单换行符（行）切分
+    "。",  # 然后尝试"。"
+    "！",
+    "？",
+    ".",
+    "!",
+    "?",
+    " ",  # 然后尝试按空格（单词）切分
+    ""  # 最后实在切不开（比如超长单词或没有标点的纯汉字），按单个字符硬切
+]
+# 分割阈值(即超过该数值才会进行分割)
+split_threshold_str_num: 1000
+
+# 允许的文件类型
+allowed_file_types: ['txt', 'pdf']
+## PDF加载器模式
+#pdf_mode: 'page'
+## PDF密码
+#pdf_pass: '123'
+
+# 向量检索
+retrieve_search_type_default: similarity
+retrieve_search_type_with_score: similarity_score_threshold
+retrieve_search_max_return_num: 3
+retrieve_search_score_threshold: 0.8
+
+# md5存储文件路径定义
+md5_path: chroma_db/md5.txt
+# 分片大小
+md5_chunk_size: 4096
+
+# 源文件路径
+original_file_dir: data
+original_file_dir_tmp: file
+
+
+
+
+

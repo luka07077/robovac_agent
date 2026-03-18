@@ -1,0 +1,19 @@
+2026-03-18 21:53:45,462 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带1条消息
+2026-03-18 21:53:49,949 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_user_location
+2026-03-18 21:53:49,949 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 21:53:49,952 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带3条消息
+2026-03-18 21:53:53,578 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_weather
+2026-03-18 21:53:53,578 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'city': '深圳'}
+2026-03-18 21:53:53,581 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带5条消息
+2026-03-18 21:53:58,793 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 21:53:58,793 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '高温高湿环境下扫地机器人保养建议'}
+2026-03-18 21:54:09,656 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带7条消息
+2026-03-18 21:54:13,532 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 21:54:13,532 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '扫地机器人潮湿环境保养'}
+2026-03-18 21:54:16,155 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带9条消息
+2026-03-18 21:54:24,203 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 21:54:24,203 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '扫地机器人高温环境保养'}
+2026-03-18 21:54:27,780 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带11条消息
+2026-03-18 21:54:32,898 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 21:54:32,898 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '扫地机器人通用保养建议'}
+2026-03-18 21:54:36,794 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带13条消息

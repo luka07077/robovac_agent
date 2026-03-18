@@ -1,0 +1,64 @@
+2026-03-18 22:28:57,686 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带1条消息
+2026-03-18 22:29:01,692 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_user_location
+2026-03-18 22:29:01,693 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:29:01,695 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带3条消息
+2026-03-18 22:29:09,204 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_weather
+2026-03-18 22:29:09,204 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'city': '东京'}
+2026-03-18 22:29:09,206 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带5条消息
+2026-03-18 22:29:15,980 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:29:15,980 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '高湿度环境下扫地机器人保养方法'}
+2026-03-18 22:29:30,694 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带7条消息
+2026-03-18 22:30:01,833 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带1条消息
+2026-03-18 22:30:04,501 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_weather
+2026-03-18 22:30:04,501 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'city': '新加坡'}
+2026-03-18 22:30:04,504 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带3条消息
+2026-03-18 22:30:09,617 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:30:09,617 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '高湿度环境对扫地机器人使用的影响及注意事项'}
+2026-03-18 22:30:20,525 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带5条消息
+2026-03-18 22:32:10,653 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带1条消息
+2026-03-18 22:32:15,449 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: fill_context_for_report
+2026-03-18 22:32:15,449 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:32:15,451 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带3条消息
+2026-03-18 22:32:19,932 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_user_id
+2026-03-18 22:32:19,933 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:32:19,934 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带5条消息
+2026-03-18 22:32:25,012 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_current_month
+2026-03-18 22:32:25,012 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:32:25,014 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带7条消息
+2026-03-18 22:32:32,935 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: fetch_external_data
+2026-03-18 22:32:32,936 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'user_id': '1002', 'month': '2025-06'}
+2026-03-18 22:32:32,956 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带9条消息
+2026-03-18 22:32:37,366 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summarize
+2026-03-18 22:32:37,367 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '边刷磨损中度保养建议'}
+2026-03-18 22:32:37,368 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带11条消息
+2026-03-18 22:32:40,733 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:32:40,733 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '边刷磨损中度保养建议'}
+2026-03-18 22:32:55,147 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带13条消息
+2026-03-18 22:33:00,755 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:33:00,755 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '避障失败电线缠绕解决方案'}
+2026-03-18 22:33:12,921 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带15条消息
+2026-03-18 22:33:16,726 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:33:16,726 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '拖地功能使用率低原因及建议'}
+2026-03-18 22:33:25,004 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带17条消息
+2026-03-18 22:34:55,972 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带1条消息
+2026-03-18 22:35:01,354 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: fill_context_for_report
+2026-03-18 22:35:01,354 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:35:01,359 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带3条消息
+2026-03-18 22:35:04,357 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_user_id
+2026-03-18 22:35:04,358 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:35:04,360 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带5条消息
+2026-03-18 22:35:07,011 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: get_current_month
+2026-03-18 22:35:07,012 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {}
+2026-03-18 22:35:07,014 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带7条消息
+2026-03-18 22:35:10,395 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: fetch_external_data
+2026-03-18 22:35:10,395 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'user_id': '1004', 'month': '2025-12'}
+2026-03-18 22:35:10,403 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带9条消息
+2026-03-18 22:35:16,593 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summarize
+2026-03-18 22:35:16,593 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '养猫家庭扫地机器人维护保养建议'}
+2026-03-18 22:35:16,594 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带11条消息
+2026-03-18 22:35:23,930 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:35:23,931 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '养猫家庭扫地机器人维护保养建议'}
+2026-03-18 22:35:33,022 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带13条消息
+2026-03-18 22:35:37,421 agent_middleware.py[line:20] INFO [monitor_tool] 执行工具: rag_summary
+2026-03-18 22:35:37,421 agent_middleware.py[line:21] INFO [monitor_tool] 传入参数: {'query': '混合地面扫地机器人使用建议'}
+2026-03-18 22:35:51,950 agent_middleware.py[line:35] INFO [before_model] 即将调用模型, 并附带15条消息

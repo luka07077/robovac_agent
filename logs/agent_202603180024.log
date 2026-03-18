@@ -1,0 +1,20 @@
+2026-03-18 00:24:43,230 vector_stores.py[line:101] INFO 94bd6c0b4283b8524f4e8dfc5b72f8ab
+2026-03-18 00:24:45,887 vector_stores.py[line:133] INFO 选购指南.txt 上传并向量化成功
+2026-03-18 00:25:18,487 vector_stores.py[line:101] INFO 94bd6c0b4283b8524f4e8dfc5b72f8ab
+2026-03-18 00:25:18,488 vector_stores.py[line:104] INFO 选购指南.txt 已存在于知识库
+2026-03-18 00:25:31,926 vector_stores.py[line:101] INFO fc539588792a89ff842cf241cf822de1
+2026-03-18 00:25:33,478 vector_stores.py[line:133] INFO 维护保养.txt 上传并向量化成功
+2026-03-18 00:25:43,701 vector_stores.py[line:101] INFO fc539588792a89ff842cf241cf822de1
+2026-03-18 00:25:43,702 vector_stores.py[line:104] INFO 维护保养.txt 已存在于知识库
+2026-03-18 00:25:46,388 vector_stores.py[line:101] INFO fc539588792a89ff842cf241cf822de1
+2026-03-18 00:25:46,388 vector_stores.py[line:104] INFO 维护保养.txt 已存在于知识库
+2026-03-18 00:25:47,125 vector_stores.py[line:101] INFO fc539588792a89ff842cf241cf822de1
+2026-03-18 00:25:47,126 vector_stores.py[line:104] INFO 维护保养.txt 已存在于知识库
+2026-03-18 00:25:47,636 vector_stores.py[line:101] INFO fc539588792a89ff842cf241cf822de1
+2026-03-18 00:25:47,637 vector_stores.py[line:104] INFO 维护保养.txt 已存在于知识库
+2026-03-18 00:25:58,802 vector_stores.py[line:101] INFO 6d726f4604d9e7ebcf59a932ae9e9c00
+2026-03-18 00:26:01,045 vector_stores.py[line:133] INFO 扫地机器人100问.pdf 上传并向量化成功
+2026-03-18 00:26:28,987 vector_stores.py[line:101] INFO 6d726f4604d9e7ebcf59a932ae9e9c00
+2026-03-18 00:26:28,988 vector_stores.py[line:104] INFO 扫地机器人100问.pdf 已存在于知识库
+2026-03-18 00:26:30,000 vector_stores.py[line:101] INFO 6d726f4604d9e7ebcf59a932ae9e9c00
+2026-03-18 00:26:30,000 vector_stores.py[line:104] INFO 扫地机器人100问.pdf 已存在于知识库

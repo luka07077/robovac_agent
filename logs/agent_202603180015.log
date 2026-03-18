@@ -1,0 +1,17 @@
+2026-03-18 00:15:23,793 file_handler.py[line:86] ERROR 计算文件: /Users/luka/Code/python/Agent/file/维护保养.txt 的md5失败, error: binary mode doesn't take an encoding argument
+2026-03-18 00:15:26,260 vector_stores.py[line:135] ERROR 上传解析 error: unsupported operand type(s) for +: 'NoneType' and 'str'
+Traceback (most recent call last):
+  File "/Users/luka/Code/python/Agent/rag/vector_stores.py", line 129, in upload_document_from_web
+    save_md5(file_md5_hex)
+  File "/Users/luka/Code/python/Agent/utils/file_handler.py", line 56, in save_md5
+    f.write(md5_str + '\n')
+            ~~~~~~~~^~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+2026-03-18 00:19:53,999 file_handler.py[line:86] ERROR 计算文件: /Users/luka/Code/python/Agent/file/维护保养.txt 的md5失败, error: binary mode doesn't take an encoding argument
+2026-03-18 00:19:57,331 vector_stores.py[line:135] ERROR 上传解析 error: unsupported operand type(s) for +: 'NoneType' and 'str'
+Traceback (most recent call last):
+  File "/Users/luka/Code/python/Agent/rag/vector_stores.py", line 129, in upload_document_from_web
+  File "/Users/luka/Code/python/Agent/utils/file_handler.py", line 56, in save_md5
+    f.write(md5_str + '\n')
+            ~~~~~~~~^~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
